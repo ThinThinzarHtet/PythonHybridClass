@@ -1,3 +1,7 @@
+git username -
+git email -
+git password -
+
 git init
 git add .
 git config global user.email "usermail"
