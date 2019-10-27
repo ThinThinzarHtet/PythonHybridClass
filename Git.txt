@@ -1,0 +1,17 @@
+git init
+git add .
+git config global user.email "usermail"
+git config global user.name "username"
+git commit -m "first commit"
+git remote add origin https://github.com/ThinThinzarHtet/PythonHybridClass.git
+git push -u origin master
+
+------------------------------
+
+git add .
+git commit -m "second commit"
+git push
+
+-------------------------------
+
+git clone https://github.com/ThinThinzarHtet/PythonHybridClass.git
