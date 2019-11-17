@@ -1,6 +1,6 @@
 import fibo
 
-fibo.fib(500)
+fibo.fib(10)
 
 f = fibo.fib
 f(100)
