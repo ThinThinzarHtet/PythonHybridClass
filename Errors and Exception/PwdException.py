@@ -40,8 +40,8 @@ try :
 	if len(text) > 72:
 		raise LongPwdException(len(text), 72)
 
-	if not re.search(r"[A-Z]+", text):
-		raise UppercaseException()
+	# if not re.search(r"[A-Z]+", text):
+	# 	raise UppercaseException()
 
 	for char in text:
 		if char in upperlist:
