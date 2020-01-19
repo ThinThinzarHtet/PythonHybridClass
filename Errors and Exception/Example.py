@@ -17,7 +17,7 @@ class BadWordException(Exception):
 		Exception.__init__(self)
 		self.badword = badword
 
-badwords = ('fuck', 'bitch', 'cyka', 'naxui')
+badwords = ('shit', 'bitch', 'cyka', 'naxui')
 
 try :
 	text = input("Enter a string: ").strip(' ')

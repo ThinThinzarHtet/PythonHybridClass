@@ -43,16 +43,20 @@ try :
 	# if not re.search(r"[A-Z]+", text):
 	# 	raise UppercaseException()
 
-	for char in text:
-		if char in upperlist:
-			uppers += 1
-		raise UppercaseException(upperlist)
+	# for char in text:
+	# 	if char in upperlist:
+	# 		uppers += 1
+	# 	raise UppercaseException(upperlist)
+
+	# for char in text:
+	# 	if char in lowerlist:
+	# 		lowers += 1
+	# 	raise LowercaseException(lowerlist)
 
 	for char in text:
-		if char in lowerlist:
-			lowers += 1
-		raise LowercaseException(lowerlist)
-
+		if text.find(islower()) = 1:
+			raise LowercaseException()
+			
 	for char in text:
 		if char in numberslist:
 			numbers += 1
